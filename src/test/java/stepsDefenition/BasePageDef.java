@@ -6,7 +6,7 @@ import org.pages.BasePage;
 public class BasePageDef {
     BasePage basePage = new BasePage();
     @Then("Click {string}")
-    public void click(String arg0) {
-        basePage.clickLoginButton(arg0);
+    public void clickButton(String arg0) {
+        basePage.clickButton(arg0);
     }
 }

@@ -10,15 +10,15 @@ import static com.codeborne.selenide.Selenide.open;
 public class BeforeAfterSteps {
 
     @Before
-    public void openUrl(){
+    public void openUrl() {
         open("https://www.yakaboo.ua/");
-    }
-    @After
-    public void tearDown(){
-        WebDriverRunner.getWebDriver().quit();
-    }
-    @AfterStep
-    public void makeScreenshot(){
-        Selenide.screenshot(System.currentTimeMillis() + "step");
-    }
-}
+    }}
+//    @After
+//    public void tearDown(){
+//        WebDriverRunner.getWebDriver().quit();
+//    }
+//    @AfterStep
+//    public void makeScreenshot(){
+//        Selenide.screenshot(System.currentTimeMillis() + "step");
+//    }
+//}
