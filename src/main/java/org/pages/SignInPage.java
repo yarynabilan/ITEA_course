@@ -22,3 +22,4 @@ public class SignInPage {
             this.passwordInput.val(text);
         }
     }
+//shouldBeVisible
