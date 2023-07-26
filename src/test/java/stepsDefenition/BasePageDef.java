@@ -7,6 +7,6 @@ public class BasePageDef {
     BasePage basePage = new BasePage();
     @Then("Click {string}")
     public void click(String arg0) {
-        basePage.clickSearchInput(arg0);
+        basePage.clickLoginButton(arg0);
     }
 }
